@@ -17,15 +17,22 @@ The Alphabet Soup Problem enables the input word or name into alphabet order. Ta
         print(i, end="") # "i" takes each letter from the list of characters, "end=**" means print everything side by side without spaces 
     
 # 2.) Emoticon Problem
-sentence = input("Enter a Sentence: ")
-sentence = sentence.lower()
+The Emoticon Problem enables the user to enter sentence with certain words such as:
+Smile - :)
+Grin - :D
+Sad - :((
+Mad - >:( 
+This emoticons replaces the words into emoticons after the code runs
 
-sentence = sentence.replace("smile", ":)")
-sentence = sentence.replace("grin", ":D")
-sentence = sentence.replace("sad", ":((")
-sentence = sentence.replace("mad", ">:(")
+    sentence = input("Enter a Sentence: ")
+    sentence = sentence.lower()
 
-print(sentence)
+    sentence = sentence.replace("smile", ":)")
+    sentence = sentence.replace("grin", ":D")
+    sentence = sentence.replace("sad", ":((")
+    sentence = sentence.replace("mad", ">:(")
+
+    print(sentence)
 
 # 3.) Unpacking List Problem
 user_input = input("Enter numbers separated by space: ")
