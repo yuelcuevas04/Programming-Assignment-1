@@ -5,10 +5,15 @@ This programming assignment features three problems namely the Alphabet Soup Pro
 The Alphabet Soup Problem enables the input word or name into alphabet order. Taking the input string to a new string and arrange it into an alphabetical order.
 
 letters = input("Enter a word/name: ") #This lets the user to input word or name to be alphabetically arranged
+
 words = letters.lower() #Lowers all the case to let the code run smoothly even with Upper case inputs
+
 word=list(words) #This code enables the input string into a list of characters.
+
 word.sort() #This code enables the string to be in alphabetical order
+
 for i in word: # A for loop to let the letters be arranged and be printed
+
     print(i, end="") # "i" takes each letter from the list of characters, "end=**" means print everything side by side without spaces 
     
 # 2.) Emoticon Problem
