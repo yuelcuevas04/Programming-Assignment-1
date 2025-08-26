@@ -1,5 +1,7 @@
 # Programming-Assignment-1
-#Alphabet Soup Problem
+This programming assignment features three problems namely the Alphabet Soup Problem, Emoticon Problem, and the Unpacking List Problem.
+The Alphabet Soup Problem enables the input word or name into alphabet order. Taking the ne
+**#Alphabet Soup Problem**
 letters = input("Enter a word/name: ")
 words = letters.lower()
 word=list(words)
