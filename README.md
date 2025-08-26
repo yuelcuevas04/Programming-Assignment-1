@@ -14,9 +14,13 @@ The Alphabet Soup Problem enables the input word or name into alphabet order. Ta
 # 2.) Emoticon Problem
 The Emoticon Problem enables the user to enter sentence with certain words such as:
 Smile - :)
+
 Grin - :D
+
 Sad - :((
+
 Mad - >:( 
+
 This emoticons replaces the words into emoticons after the code runs
 
     sentence = input("Enter a Sentence: ") # Enables user to input their sentence that has the certain words
