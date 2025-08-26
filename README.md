@@ -9,7 +9,8 @@ The Alphabet Soup Problem enables the input word or name into alphabet order. Ta
     word=list(words)                       #This code enables the input string into a list of characters
     word.sort()                            #This code enables the string to be in alphabetical order
     for i in word:                         #A for loop to let the letters be arranged and be printed
-        print(i, end="")                   # "i" takes each letter from the list of characters, "end=**" means print everything side by side without spaces 
+        print(i, end="")                   # "i" takes each letter from the list of characters, 
+                                            "end=**" means print everything side by side without spaces 
     
 # 2.) Emoticon Problem
 The Emoticon Problem enables the user to enter sentence with certain words such as:
@@ -37,18 +38,20 @@ This emoticons replaces the words into emoticons after the code runs
 # 3.) Unpacking List Problem
 The Unpacking List Problem enables the user to enter different numbers and the code will separate and print the numbers whether which is first, middle, and last.
 
-    user_input = input("Enter numbers separated by space: ") # A user input for randomly arranged numbers, but the input should be separated by spaces otherwise will be considered as digits number
-    array = user_input.split() # The syntax removes space and returns each number into an element in list(array)
+    user_input = input("Enter numbers separated by space: ") # A user input for randomly arranged numbers, 
+                                                            but the input should be separated by spaces otherwise 
+                                                            will be considered as digits number
+    array = user_input.split()        # The syntax removes space and returns each number into an element in list(array)
 
-    unpack = [] # An empty list to be transferred
+    unpack = []                       # An empty list to be transferred
 
-    for item in array: # This loop goes through each element "item" inside a the list of "array"
-        unpack.append(int(item)) # This code transfers the elements of "array" to "unpack" one by one
+    for item in array:                # This loop goes through each element "item" inside a the list of "array"
+        unpack.append(int(item))      # This code transfers the elements of "array" to "unpack" one by one
 
-    first = unpack[0] # Transfers the element (0) the first value to "first"
-    middle = unpack[1:-1] # Transfers the elements 1 to -1 the middle values to "middle"
-    last = unpack [-1] # Transfers the element (-1) the last value to "last"
+    first = unpack[0]                 # Transfers the element (0) the first value to "first"
+    middle = unpack[1:-1]             # Transfers the elements 1 to -1 the middle values to "middle"
+    last = unpack [-1]                # Transfers the element (-1) the last value to "last"
 
-    print("First: ", first) # Prints the First input
-    print("Middle: ", middle) # Prints the Middle inputs
-    print("Last: ", last) # Prints the Last input
+    print("First: ", first)           # Prints the First input
+    print("Middle: ", middle)         # Prints the Middle inputs
+    print("Last: ", last)             # Prints the Last input
